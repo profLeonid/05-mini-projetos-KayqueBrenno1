@@ -23,5 +23,5 @@ function calcularDesconto() {
     let valorFinal = (preco.value - (preco.value * decimal)).toFixed(2)
     let valorEconomizado = (preco.value * decimal).toFixed(2)
 
-    resultado.textContent = `Valor economizado: ${valorEconomizado} Valor final: ${valorFinal}`
+    resultado.textContent = `Valor economizado: ${valorEconomizado} - Valor final: ${valorFinal}`
 }
