@@ -2,46 +2,47 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Calculadora de IMC</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
 </head>
 
 <body>
 
-  <main>
-    <div class="conteudo">
+    <main>
+        <div class="conteudo">
 
-      <a href="../index.html" class="voltar">← Voltar</a>
+            <a href="../index.html" class="voltar">← Voltar</a>
 
-      <h1>
-        Calculadora de
-        <span>IMC</span>
-      </h1>
-      <p class="descricao">Informe seus dados para calcular e classificar seu IMC.</p>
+            <h1>
+                Calculadora de
+                <span>IMC</span>
+            </h1>
+            <p class="descricao">Informe seus dados para calcular e classificar seu IMC.</p>
 
-      <label>Nome</label>
-      <input type="text" placeholder="Seu nome" />
+            <label>Nome</label>
+            <input id="nome" type="text" placeholder="Seu nome" />
 
-      <label>Altura (em metros)</label>
-      <input type="number" placeholder="Ex: 1.70" step="0.01" />
+            <label>Altura (em metros)</label>
+            <input id="altura" type="number" placeholder="Ex: 1.70" step="0.01" />
 
-      <label>Peso (em kg)</label>
-      <input type="number" placeholder="Ex: 70" />
+            <label>Peso (em kg)</label>
+            <input id="peso" type="number" placeholder="Ex: 70" />
 
-      <button onclick="calcularIMC()">Calcular IMC</button>
+            <button onclick="calcularIMC()">Calcular IMC</button>
 
-      <div class="resultado">
-        O resultado aparecerá aqui
-      </div>
+            <div id="resultado" class="resultado">
+                O resultado aparecerá aqui
+            </div>
 
-    </div>
-  </main>
+        </div>
+    </main>
 
-  <footer>
-    <p>Prof. Fernando Leonid</p>
-  </footer>
+    <footer>
+        <p>Prof. Fernando Leonid</p>
+    </footer>
 
 </body>
 

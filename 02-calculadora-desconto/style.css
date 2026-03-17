@@ -109,19 +109,19 @@ button:hover {
   justify-content: center;
 }
 
-.ate{
+.desconto1{
   border: 2px solid #14532d;
-  box-shadow: 0 0 16px #14532d;
+  box-shadow: inset 0 0 16px #14532d;
 }
 
-.entre{
+.desconto2{
   border: 2px solid #713f12;
-  box-shadow: 0 0 16px #713f12;
+  box-shadow: inset 0 0 16px #713f12;
 }
 
-.acima{
+.desconto3{
   border: 2px solid #7f1d1d;
-  box-shadow: 0 0 16px #7f1d1d;
+  box-shadow: inset 0 0 16px #7f1d1d;
 }
 
 footer {

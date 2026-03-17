@@ -27,5 +27,6 @@ function calcularMedia() {
         status = 'aprovado'
     }
 
-    resultado.textContent = `A média do aluno(a) é ${media}, ele está ${status}.`
+    resultado.textContent = `A média do aluno(a) é ${media}, a situação final é ${status}.`
+    
 }
